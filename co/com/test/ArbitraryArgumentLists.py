@@ -1,3 +1,4 @@
+"""create a function with arbitrary arguments"""
 def concat(*args, sep="/"):
     return sep.join(args)
 

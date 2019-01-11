@@ -1,3 +1,4 @@
+"""Define a new function with default arguments using mutable and inmutable"""
 def f(a, inmutable="Hola ", mutable=[], castMutableOnInmutable=None):
     inmutable + a
     mutable.append(a)
